@@ -1,3 +1,7 @@
+body {
+    margin: 8px 8px 0px 8px;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -77,8 +81,6 @@
 .text {
     color: white;
     opacity: 0;
-    font-size: 20px;
-    font-family: sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -197,10 +199,14 @@ input:focus::placeholder {
 .footer {
     font-family: Calibri;
     font-size: 20px;
-    width: 100%;
+    width: 80%;
     bottom: 0;
     position: relative;
     text-align: center;
+    background-color: rgb(190, 179, 241);
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer a {
